@@ -18,8 +18,7 @@ if not TOKEN:
                         "text": text
                             }).encode()
 
-                                url = f"{API}/sendMessage"
-
+url = f"{API}/sendMessage"
                                     with urllib.request.urlopen(
                                             urllib.request.Request(url, data=data),
                                                     timeout=40
